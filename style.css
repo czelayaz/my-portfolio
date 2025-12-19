@@ -9,6 +9,11 @@ body{
     margin-left: 50px;
 }
 
+html, body {
+    overflow-x: hidden; /* Evita el desplazamiento lateral accidental */
+    width: 100%;
+  }
+
 /* Style for Navbar */
 nav {
     position: fixed;
