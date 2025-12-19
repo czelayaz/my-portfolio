@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta name="description" content="This is my portfolio">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="menu-nav">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a class="btn-nav" href="#presentation">About me</a>
+                    </li>
+                    <li>
+                        <a class="btn-nav" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="btn-nav" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="btn-nav" href="#certifications">Courses</a>
+                    </li>
+                    <!--<li>
+                        <a class="btn-nav" href="#contact">Contact me</a>
+                    </li>-->
+                </ul>
+            </div>
+        </nav>    
+        <section id="presentation" class="presentation-container">
+            <div class="profile">
+                <img src="./images/IMG_5985.jpeg" alt="img-presentation">
+                <div class="profile-description">
+                    <p>Hello!</p>
+                    <p>I'm Catalina Zelaya, I studied Telematic Civil Engineering at the 
+                    Universidad Técnica Federico Santa María. I’m looking to work in roles 
+                    related to web development.</p>
+                    <div id="languages"> 
+                        <p>Languages:</p>
+                        <p>Spanish Native - English B1</p>
+                    </div>
+                    <div id="location">
+                        <img src="./images/location.png" alt="location-img">
+                        <p>Valparaíso, Chile</p>
+                    </div>
+                    <a href="/Users/czelaya/Desktop/Portfolio/documents/Curriculum_Catalina_Zelaya.pdf" class="btn" download="Curriculum_CatalinaZelaya.pdf">Download Curriculum</a>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills-container">
+            <p class="title">Software Skills</p>
+            <div class="software-skills">
+                <div class="skill-card">
+                    <img src="images/JavaScript-logo.png" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Python-logo.png" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/HTML5_logo.png" alt="">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/CSS3_logo.png" alt="">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Git_logo.png" alt="">
+                    <p>Git</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Github_logo.png" alt="">
+                    <p>GitHub</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/React-logo.png" alt="">
+                    <p>React</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Angular_logo.png" alt="">
+                    <p>Angular</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Vue.js_logo.png" alt="">
+                    <p>Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/Bootstrap_logo.png" alt="">
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-container">
+            <p class="title">Projects</p>
+            <div class="projects-presentation">
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="prev-project">
+                    <div class="project-description">
+                        <p>Copia de página web de visualización de imágenes.</p>
+                        <a href="/" class="btn">Take a look</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="prev-project">
+                    <div class="project-description">
+                        <p>Copia de página web de visualización de imágenes.</p>
+                        <a href="/" class="btn">Take a look</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="prev-project">
+                    <div class="project-description">
+                        <p>Copia de página web de visualización de imágenes.</p>
+                        <a href="/" class="btn">Take a look</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="prev-project">
+                    <div class="project-description">
+                        <p>Copia de página web de visualización de imágenes.</p>
+                        <a href="/" class="btn">Take a look</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="certifications-container">
+            <p class="title">Courses</p>
+            <div class="certifications-presentation">
+                <div class="certification-card">
+                    <img src="./images/certJavascript.png" alt="prev-certification" class="prev-img-cert">
+                    <a class="btn cert-trigger-btn" data-target="modal-cert1">Check it</a>
+                    <div id="modal-cert1" class="modal-overlay">
+                        <div class="modal-content">
+                          <span class="close-modal">&times;</span>
+                          
+                          <h3>Fundamentals of Javascript</h3>
+                          
+                          <img src="./images/certJavascript.png" alt="Vista previa Certificado JS" class="modal-image">
+                          
+                          <a href="./documents/certificado-javascript.pdf" download class="modal-download-btn">Descargar PDF Oficial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <img src="./images/Cert-frontend.png" alt="prev-certification" class="prev-img-cert">
+                    <a class="btn cert-trigger-btn" data-target="modal-cert2">Check it</a>
+                    <div id="modal-cert2" class="modal-overlay">
+                        <div class="modal-content">
+                          <span class="close-modal">&times;</span>
+                          
+                          <h3>Frontend Developer</h3>
+                          
+                          <img src="./images/Cert-frontend.png" alt="Vista previa Certificado JS" class="modal-image">
+                          
+                          <a href="./documents/diploma-frontend-developer.pdf" download class="modal-download-btn">Descargar PDF Oficial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--<section id="contact">
+            <p class="title">Contact me</p>
+            <div></div>
+        </section>-->
+        <script>
+            // 1. Seleccionamos todas las secciones y los links del menú
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".menu ul li a");
+          
+            // 2. Escuchamos el evento "scroll" (cuando bajas en la página)
+            window.addEventListener("scroll", () => {
+              let current = "";
+          
+              sections.forEach((section) => {
+                // Calculamos la distancia de cada sección
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                // Si el scroll ha bajado hasta esta sección (menos 150px para ajustar la vista)
+                if (pageYOffset >= sectionTop - 150) {
+                  current = section.getAttribute("id");
+                }
+              });
+          
+              // 3. Quitamos la clase 'active' a todos y se la ponemos al actual
+              navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").includes(current)) {
+                  link.classList.add("active");
+                }
+              });
+            });
+
+            // --- Lógica de los Modales de Certificación ---
+
+            // 1. Seleccionar todos los botones que abren modales
+            const certTriggers = document.querySelectorAll('.cert-trigger-btn');
+            
+            // 2. Seleccionar todos los botones de cerrar (X)
+            const closeButtons = document.querySelectorAll('.close-modal');
+
+            // Función para abrir un modal
+            certTriggers.forEach(trigger => {
+                trigger.addEventListener('click', () => {
+                // Obtiene el ID del modal que debe abrir este botón
+                const modalId = trigger.getAttribute('data-target');
+                const modalToOpen = document.getElementById(modalId);
+                
+                // Lo muestra usando Flex (para que el centrado CSS funcione)
+                if (modalToOpen) {
+                    modalToOpen.style.display = 'flex';
+                }
+                });
+            });
+
+            // Función para cerrar modales con la X
+            closeButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                // Cierra el modal padre más cercano a la X
+                btn.closest('.modal-overlay').style.display = 'none';
+                });
+            });
+
+            // Función para cerrar si hacen clic fuera de la caja (en el fondo oscuro)
+            window.addEventListener('click', (e) => {
+                if (e.target.classList.contains('modal-overlay')) {
+                e.target.style.display = 'none';
+                }
+            });
+
+          </script>
+    </body>
+</html>
