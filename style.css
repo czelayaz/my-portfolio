@@ -441,16 +441,67 @@ font-size: 0.9rem;
     }
 
     .img-presentation {
-        max-width: 80%; /* O el tamaño que prefieras en móvil */
-        max-height: 500px;
+        max-width: 60%; /* O el tamaño que prefieras en móvil */
+        height: auto;
+        border-radius: 10px;
         display: block;
         margin: 20px auto; /* Centrada con espacio arriba y abajo */
         position: static;  /* CRUCIAL: Evita que se superponga */
       }
 
     .profile-description {
-        text-align: start; /* Centramos el texto para móvil */
+        width: 100%;
+        text-align: center; /* IMPORTANTE: Centrar texto en móvil se ve mejor */
+        padding: 0 15px;    /* Un poco de margen a los lados */
     }
+
+    /* Estilo para los párrafos normales */
+    .profile-description p {
+        font-size: 18px;    /* Aumentamos el tamaño base */
+        line-height: 1.5;   /* Espacio entre líneas */
+        color: #ddd;        /* Color gris claro */
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  
+    /* Estilo específico para el "Hello!" (Primer párrafo) */
+    .profile-description p:first-child {
+        font-size: 40px;    /* Título grande */
+        font-weight: bold;
+        color: white;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #languages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    /* Centra el texto internamente */
+        width: 100%;
+        margin-top: 15px;       /* Un poco de aire arriba */
+      }
+
+    #languages p:nth-child(1), #location p{
+        width: 100%;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #languages p:nth-child(2), #location p{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .btn {
+        display: block;     /* Comportamiento de bloque */
+        margin: 20px auto;  /* Arriba/Abajo 20px, Izquierda/Derecha AUTO (esto lo centra) */
+        max-width: 250px;   /* Para que no sea tan ancho si no quieres */
+        align-content: center;
+      }
 
     .menu {
     width: 100%;
@@ -476,6 +527,14 @@ font-size: 0.9rem;
         margin-top: 24px;
     }
 
+    .profile-description {
+        text-align: center;      /* Centra el texto */
+        display: flex;           /* Activa flexbox */
+        flex-direction: column;  /* Apila los elementos uno sobre otro */
+        align-items: center;     /* Centra los elementos (divs hijos, botón, etc.) horizontalmente */
+        width: 100%;
+      }
+
     #languages p:nth-child(1){
         margin-top: 0;
     }
@@ -499,3 +558,5 @@ font-size: 0.9rem;
         place-content: center;
     }
 }
+
+
