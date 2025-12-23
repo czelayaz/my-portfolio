@@ -501,6 +501,7 @@ font-size: 0.9rem;
         margin: 20px auto;  /* Arriba/Abajo 20px, Izquierda/Derecha AUTO (esto lo centra) */
         max-width: 250px;   /* Para que no sea tan ancho si no quieres */
         align-content: center;
+        text-align: center;
       }
 
     .menu {
